@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/obj/Debug/net7.0/scopedcss/projectbundle/cloudy-website.bundle.scp.css",
+      "PackagePath": "staticwebassets/cloudy-website.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/Cloudy home page.png",
+      "PackagePath": "staticwebassets/assets/images/Cloudy home page.png"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/Mini CRM.png",
+      "PackagePath": "staticwebassets/assets/images/Mini CRM.png"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/POCOs.png",
+      "PackagePath": "staticwebassets/assets/images/POCOs.png"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/logonb.png",
+      "PackagePath": "staticwebassets/assets/images/logonb.png"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/logowb.jpeg",
+      "PackagePath": "staticwebassets/assets/images/logowb.jpeg"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/scaffolding.png",
+      "PackagePath": "staticwebassets/assets/images/scaffolding.png"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.cloudy-website.props",
+      "PackagePath": "build\\cloudy-website.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.cloudy-website.props",
+      "PackagePath": "buildMultiTargeting\\cloudy-website.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.cloudy-website.props",
+      "PackagePath": "buildTransitive\\cloudy-website.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.cloudy-website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
