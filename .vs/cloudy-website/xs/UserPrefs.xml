@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{9D9C9C2E-E6ED-4132-8A03-C595AEC9C8A8}|https">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{9D9C9C2E-E6ED-4132-8A03-C595AEC9C8A8}|https">
   <MonoDevelop.Ide.Workbench ActiveDocument="cloudy-website/Program.cs">
     <Files>
       <File FileName="cloudy-website/Views/Home/Index.cshtml" />
@@ -31,11 +31,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.cloudy-website PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.cloudy-website PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
