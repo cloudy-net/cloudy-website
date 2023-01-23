@@ -13,17 +13,12 @@ public class ResourcesController : Controller
         _logger = logger;
     }
 
-    public IActionResult Business()
+    public IActionResult Agencies()
     {
         return View();
     }
 
     public IActionResult Developers()
-    {
-        return View();
-    }
-
-    public IActionResult Addons()
     {
         return View();
     }

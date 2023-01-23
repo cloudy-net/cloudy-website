@@ -23,11 +23,6 @@ public class ProductController : Controller
         return View();
     }
 
-    public IActionResult Portfolio()
-    {
-        return View();
-    }
-
     public IActionResult Features()
     {
         return View();

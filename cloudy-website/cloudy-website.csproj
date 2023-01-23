@@ -18,11 +18,24 @@
     <Folder Include="Views\About\" />
     <Folder Include="Views\Product\" />
     <Folder Include="Views\Resources\" />
+    <Folder Include="Views\Page\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\About\" />
     <None Remove="Views\Product\" />
     <None Remove="Views\About\About\" />
     <None Remove="Views\Resources\" />
+    <None Remove="Cloudy.CMS" />
+    <None Remove="Cloudy.CMS.UI" />
+    <None Remove="Cloudy.CMS.UI.AzureMediaPicker" />
+    <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
+    <None Remove="Microsoft.EntityFrameworkCore.Cosmos" />
+    <None Remove="Views\Page\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Cloudy.CMS" Version="1.62.68" />
+    <PackageReference Include="Cloudy.CMS.UI" Version="1.62.68" />
+    <PackageReference Include="Cloudy.CMS.UI.AzureMediaPicker" Version="1.62.68" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="7.0.2" />
   </ItemGroup>
 </Project>

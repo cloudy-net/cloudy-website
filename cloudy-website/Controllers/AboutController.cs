@@ -13,16 +13,6 @@ public class AboutController : Controller
         _logger = logger;
     }
 
-    public IActionResult About()
-    {
-        return View();
-    }
-
-    public IActionResult Careers()
-    {
-        return View();
-    }
-
     public IActionResult Contact()
     {
         return View();

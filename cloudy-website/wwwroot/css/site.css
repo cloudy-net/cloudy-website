@@ -73,11 +73,11 @@ nav ul i, .block i, footer i {
 
 .block {
     border-radius: 10px;
-    background-color: var(--warmGrey);
+    background-color: var(--offBlack);
     border-style: solid;
     border-width: 0.5px;
     border-color: var(--borderColor);
-    box-shadow: 0 0 1px var(--boxShadow);
+    box-shadow: 0 0 5px var(--boxShadow);
     padding: 10px;
 }
 
@@ -154,6 +154,7 @@ nav {
     top: 65px;
     min-width: 160px;
     z-index: 2;
+    padding-bottom: 20px;
 }
 
     #dropdownProduct {
@@ -232,6 +233,16 @@ nav {
     cursor: pointer;
 }
 
+.dropdownSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .dropdownSection a {
+        margin: 0 auto;
+    }
+
 .dropdownElements {
     display: flex;
     flex-direction: column;
@@ -246,7 +257,7 @@ nav {
         color: var(--offWhite);
         position: sticky;
         top: 0;
-        background-color: var(--warmGrey);
+        background-color: var(--offBlack);
         z-index: 1;
         padding-bottom: 5px;
     }
@@ -257,6 +268,19 @@ nav {
     color: var(--purple);
     margin-top: 15px;
 }
+
+.comingSoon span {
+    color: var(--borderColor);
+}
+
+.comingSoon:hover span {
+    display: none;
+}
+
+    .comingSoon:hover:before {
+        content: "Coming soon!";
+        color: var(--borderColor);
+    }
 
 @media (max-width: 811px) {
     .hideOnSmall {
@@ -326,11 +350,8 @@ nav {
         margin-top: 125px;
         margin-bottom: 175px;
     }
-    #usecaseTitle {
+    #philosophyTitle {
         margin-top: 175px;
-    }
-    .usecaseContainer {
-        margin-bottom: 175px;
     }
     #heroLogo {
         display: none;
@@ -402,53 +423,11 @@ nav {
 }
 
 
-/* Use case container section */
-
-#usecaseTitle {
-    margin-top: 350px;
-}
-
-.usecaseContainer {
-    width: 90%;
-    margin-bottom: 250px;
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-    flex-direction: row;
-    row-gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.usecaseDiv {
-    min-height: 259px;
-    width: 325px;
-    min-width: 30%;
-}
-
-    .usecaseDiv > * {
-        margin: 15px;
-    }
-
-.toPortfolio {
-    text-align: center;
-}
-
-@media (max-width: 1197px) {
-    #usecaseTitle {
-        margin-top: 175px;
-    }
-    .usecaseContainer {
-        justify-content: center;
-        margin-bottom: 175px;
-    }
-    .whyCloudyContainer {
-        margin-bottom: 175px;
-    }
-}
-
-
 /* Why Cloudy container section */
+
+#philosophyTitle {
+    margin-top: 250px;
+}
 
 .whyCloudyContainer {
     width: 90%;
@@ -558,7 +537,7 @@ nav {
         font-size: 16px;
     }
 
-.communityEdition {
+.tierTitle {
     background-color: black;
     color: var(--offWhite);
     display: flex;
@@ -574,7 +553,7 @@ nav {
     margin-top: 35px;
 }
 
-    .communityEdition > h3 {
+    .tiertitle > h3 {
         font-weight: normal;
         font-size: 16px;
     }
@@ -620,13 +599,10 @@ nav {
     color: var(--offWhite)
 }
 
-.pricingFooter > p {
-    font-weight: bold;
-}
-
-.pricingFooter > ul > li {
-    color: var(--silverGrey);
-    margin: 5px;
+.pricingFooter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
 }
 
 @media (max-width: 779px) {
@@ -684,8 +660,14 @@ footer {
     justify-content: space-between;
 }
 
+.footer-column-right-top-el {
+    text-align: center;
+}
+
 .footer-ul { /* Also used in pricing section */
     list-style: none;
+    width: 100%;
+    min-width: 100px;
 }
 
     .footer-ul > li {

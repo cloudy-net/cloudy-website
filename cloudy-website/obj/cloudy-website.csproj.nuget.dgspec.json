@@ -37,6 +37,24 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Cloudy.CMS": {
+              "target": "Package",
+              "version": "[1.62.68, )"
+            },
+            "Cloudy.CMS.UI": {
+              "target": "Package",
+              "version": "[1.62.68, )"
+            },
+            "Cloudy.CMS.UI.AzureMediaPicker": {
+              "target": "Package",
+              "version": "[1.62.68, )"
+            },
+            "Microsoft.EntityFrameworkCore.Cosmos": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }
