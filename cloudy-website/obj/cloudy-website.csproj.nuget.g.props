@@ -16,7 +16,4 @@
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/7.0.2/buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/7.0.2/buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)cloudy.cms.ui/1.62.68/buildTransitive/Cloudy.CMS.UI.props" Condition="Exists('$(NuGetPackageRoot)cloudy.cms.ui/1.62.68/buildTransitive/Cloudy.CMS.UI.props')" />
   </ImportGroup>
-  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/Users/Bas/.nuget/packages/newtonsoft.json/10.0.2</PkgNewtonsoft_Json>
-  </PropertyGroup>
 </Project>

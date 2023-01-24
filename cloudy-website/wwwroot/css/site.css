@@ -169,7 +169,6 @@ nav {
         transform: translate(138%);
     }
 
-
 .dropdownContent a {
     float: none;
     width: fit-content;
@@ -353,6 +352,9 @@ nav {
     #philosophyTitle {
         margin-top: 175px;
     }
+    #pricingTitle {
+        margin-top: 175px;
+    }
     #heroLogo {
         display: none;
     }
@@ -423,7 +425,146 @@ nav {
 }
 
 
-/* Why Cloudy container section */
+/* Feature section */
+
+.featureContainer {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 250px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featureDiv {
+    flex-grow: 1;
+    width: 200px;
+}
+
+    .featureDiv > h3, .featureDiv > p, .featureDiv > i, .featureDiv > a {
+        margin: 15px;
+    }
+
+
+/* Pricing container */
+
+#pricingTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 25px;
+    margin-top: 250px;
+}
+
+#pricingTitlePricing { /* Also used for 'Features' title */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+    #pricingTitle > p, #pricingTitlePricing > p {
+        font-size: 16px;
+    }
+
+.tierTitle {
+    background-color: black;
+    color: var(--offWhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 25px -10px #4e4e4e;
+    height: 35px;
+    width: 250px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+    .communityEdition > h3 {
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+.pricingContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 250px;
+}
+
+.pricingDiv {
+    flex: 1;
+    text-align: center;
+}
+
+.priceHero {
+    color: var(--purple);
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.pricingEl {
+    margin: 15px;
+}
+
+.pricingSubTxt {
+    min-height: 100px;
+}
+
+.pricingBtns {
+    min-height: 125px;
+}
+
+#trialBtn {
+    min-width: 50%;
+    background-color: transparent;
+    border: solid 1px var(--green);
+    color: var(--offWhite)
+}
+
+.pricingFooter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+@media (max-width: 779px) {
+    .pricingContainer {
+        flex-direction: column;
+    }
+}
+
+
+/* Final call container */
+
+.finalCallContainer {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+#finalCallTxt {
+    font-size: 45px;
+    color: var(--offWhite);
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+/* Used on the 'for developers' page */
 
 #philosophyTitle {
     margin-top: 250px;
@@ -503,6 +644,7 @@ nav {
         flex-direction: column;
         row-gap: 35px;
     }
+
     .whyCloudyDivTxt {
         width: 100%;
         min-width: 0;
@@ -510,124 +652,24 @@ nav {
         height: fit-content;
         min-height: 350px;
     }
+
     .whyCloudyDivGif {
         justify-content: center;
     }
+
     #whyCloudyRight {
         text-align: left;
     }
+
         #whyCloudyRight > ul {
             direction: ltr;
         }
+
     .right {
         flex-direction: column-reverse;
     }
 }
 
-/* Pricing container */
-
-#pricingTitle {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    row-gap: 25px;
-}
-
-    #pricingTitle > p {
-        font-size: 16px;
-    }
-
-.tierTitle {
-    background-color: black;
-    color: var(--offWhite);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 0px 25px -10px #4e4e4e;
-    height: 35px;
-    width: 250px;
-    border-radius: 50px;
-    font-size: 14px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
-}
-
-    .tiertitle > h3 {
-        font-weight: normal;
-        font-size: 16px;
-    }
-
-.pricingContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 25px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 250px;
-}
-
-.pricingDiv {
-    flex: 1;
-    text-align: center;
-}
-
-.priceHero {
-    color: var(--purple);
-    font-size: 40px;
-    margin-top: 50px;
-}
-
-.pricingEl {
-    margin: 15px;
-}
-
-.pricingSubTxt {
-    min-height: 100px;
-}
-
-.pricingBtns {
-    min-height: 125px;
-}
-
-#trialBtn {
-    min-width: 50%;
-    background-color: transparent;
-    border: solid 1px var(--green);
-    color: var(--offWhite)
-}
-
-.pricingFooter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 35px;
-}
-
-@media (max-width: 779px) {
-    .pricingContainer {
-        flex-direction: column;
-    }
-}
-
-
-/* Final call container */
-
-.finalCallContainer {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 250px;
-    text-align: center;
-}
-
-#finalCallTxt {
-    font-size: 45px;
-    color: var(--offWhite);
-    font-weight: bold;
-    margin-bottom: 50px;
-}
 
 /* Footer */
 
@@ -718,3 +760,6 @@ footer {
         text-align: center;
     }
 }
+
+
+
