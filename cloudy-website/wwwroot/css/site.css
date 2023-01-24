@@ -449,6 +449,18 @@ nav {
         margin: 15px;
     }
 
+.nextFeature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .nextFeature > h3 {
+        font-weight: normal;
+        color: var(--silverGrey);
+    }
+
 
 /* Pricing container */
 
