@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZaHM6Dsa5/38qB4r+s7cBDE32vpDNaxiTHrmyFwp7hM=",
+  "Hash": "P1rPtYr0+nNbSJXEYjFin2hPaKBeIN3CajN0SVmDtF4=",
   "Source": "cloudy-website",
   "BasePath": "_content/cloudy-website",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/.DS_Store"
+    },
+    {
+      "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/.DS_Store",
+      "SourceId": "cloudy-website",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/",
+      "BasePath": "_content/cloudy-website",
+      "RelativePath": "assets/images/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/images/.DS_Store"
     },
     {
       "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/logonb.png",

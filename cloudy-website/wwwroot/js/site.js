@@ -50,3 +50,10 @@ document.addEventListener("scroll", () => {
     appear();
 });
 
+
+// Display alert for buy buttons
+
+function showAlert() {
+    alert("Coming very, very soon. Give us a shout at hello@cloudy.net or +46123456789 if you would like to purchase now.");
+};
+
