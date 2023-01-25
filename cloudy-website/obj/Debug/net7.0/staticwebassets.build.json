@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DiD9R5WlG5Engcfh6o/bGeyWgplbzIZftbnuGoWckqo=",
+  "Hash": "ZaHM6Dsa5/38qB4r+s7cBDE32vpDNaxiTHrmyFwp7hM=",
   "Source": "cloudy-website",
   "BasePath": "_content/cloudy-website",
   "Mode": "Default",
@@ -136,23 +136,6 @@
       "OriginalItemSpec": "wwwroot/assets/.DS_Store"
     },
     {
-      "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/Cloudy home page.png",
-      "SourceId": "cloudy-website",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/",
-      "BasePath": "_content/cloudy-website",
-      "RelativePath": "assets/images/Cloudy home page.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/images/Cloudy home page.png"
-    },
-    {
       "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/logonb.png",
       "SourceId": "cloudy-website",
       "SourceType": "Discovered",
@@ -185,23 +168,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/images/logowb.jpeg"
-    },
-    {
-      "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/Mini CRM.png",
-      "SourceId": "cloudy-website",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/",
-      "BasePath": "_content/cloudy-website",
-      "RelativePath": "assets/images/Mini CRM.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/images/Mini CRM.png"
     },
     {
       "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/POCOs.png",

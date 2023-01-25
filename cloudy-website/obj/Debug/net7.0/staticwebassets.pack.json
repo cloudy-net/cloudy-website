@@ -13,14 +13,6 @@
       "PackagePath": "staticwebassets/assets/.DS_Store"
     },
     {
-      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/Cloudy home page.png",
-      "PackagePath": "staticwebassets/assets/images/Cloudy home page.png"
-    },
-    {
-      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/Mini CRM.png",
-      "PackagePath": "staticwebassets/assets/images/Mini CRM.png"
-    },
-    {
       "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/POCOs.png",
       "PackagePath": "staticwebassets/assets/images/POCOs.png"
     },
