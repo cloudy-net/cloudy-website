@@ -246,7 +246,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 550px;
+    height: calc;
     padding-bottom: 15px;
     overflow-y: scroll;
     max-height: 85vh;
