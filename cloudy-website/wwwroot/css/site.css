@@ -552,7 +552,7 @@ nav {
     margin-bottom: 35px;
 }
 
-@media (max-width: 779px) {
+@media (max-width: 960px) {
     .pricingContainer {
         flex-direction: column;
     }
