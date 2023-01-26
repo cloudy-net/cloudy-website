@@ -731,10 +731,12 @@ footer {
 
 .footer-column-right-middle {
     text-align: center;
+    width: 100%;
 }
 
 .footer-column-right-bottom {
     text-align: center;
+    width: 100%;
 }
 
 .footerEl {
