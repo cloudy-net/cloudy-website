@@ -295,8 +295,10 @@ nav {
 
 .heroContainer {
     width: 90%;
-    margin-top: 225px;
-    margin-bottom: 350px;
+    max-width: 1200px;
+    height: 100vh;
+    min-height: 460px;
+    margin-top: 30px;
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
@@ -309,7 +311,6 @@ nav {
 
 .heroComponent-left {
     max-width: 550px;
-    min-width: 50%;
 }
 
 #cycler {
@@ -339,9 +340,17 @@ nav {
     .heroContainer {
         flex-direction: column;
         justify-content: center;
+        height: initial;
+        margin-top: 225px;
+        margin-bottom: 350px;
     }
     #heroLogo {
         margin-top: 35px;
+    }
+}
+@media (min-width: 1335px) {
+    .heroContainer {
+        margin: 0 auto;
     }
 }
 @media (max-width: 500px) {
