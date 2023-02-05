@@ -1,13 +1,20 @@
-﻿<Properties StartupConfiguration="{9D9C9C2E-E6ED-4132-8A03-C595AEC9C8A8}|https" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.ItemProperties.cloudy-website PreferredExecutionTarget="/Applications/Firefox.app" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{9D9C9C2E-E6ED-4132-8A03-C595AEC9C8A8}|https">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="cloudy-website/Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.cloudy-website PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="cloudy-website/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="cloudy-website/Views/Home/Index.cshtml" />
-      <File FileName="cloudy-website/Views/Shared/_Layout.cshtml" />
-      <File FileName="cloudy-website/wwwroot/css/site.css" />
+      <File FileName="cloudy-website/Views/Shared/_Layout.cshtml" Line="19" Column="29" />
+      <File FileName="cloudy-website/wwwroot/css/site.css" Line="17" Column="23" />
       <File FileName="cloudy-website/wwwroot/js/site.js" />
       <File FileName="cloudy-website/Program.cs" Line="27" Column="1" />
+      <File FileName="cloudy-website/Views/Resources/Developers.cshtml" Line="14" Column="7" />
+      <File FileName="cloudy-website/Views/Resources/agencies.cshtml" Line="12" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,8 +23,9 @@
             <Node name="cloudy-website" expanded="True">
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
+                <Node name="Resources" expanded="True" />
                 <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" expanded="True" />
+                  <Node name="_Layout.cshtml" expanded="True" selected="True" />
                 </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
@@ -33,9 +41,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

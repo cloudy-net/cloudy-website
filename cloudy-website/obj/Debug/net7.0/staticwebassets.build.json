@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P1rPtYr0+nNbSJXEYjFin2hPaKBeIN3CajN0SVmDtF4=",
+  "Hash": "Gq7x4+EcX0ojIlNZkPnLq9SjqXlv2iOkqdeXZXuP1Hg=",
   "Source": "cloudy-website",
   "BasePath": "_content/cloudy-website",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/images/logowb.jpeg"
+    },
+    {
+      "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/netmvc.png",
+      "SourceId": "cloudy-website",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/",
+      "BasePath": "_content/cloudy-website",
+      "RelativePath": "assets/images/netmvc.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/images/netmvc.png"
     },
     {
       "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/POCOs.png",

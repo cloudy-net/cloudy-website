@@ -4,7 +4,9 @@
     /* CSS reset */
     margin: 0;
     padding: 0;
-    /* Some standard colours */
+}
+
+:root {
     --offBlack: #0d1116;
     --warmGrey: #282828;
     --borderColor: #30363d;

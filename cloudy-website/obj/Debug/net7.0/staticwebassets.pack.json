@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets/assets/images/logowb.jpeg"
     },
     {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/netmvc.png",
+      "PackagePath": "staticwebassets/assets/images/netmvc.png"
+    },
+    {
       "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/scaffolding.png",
       "PackagePath": "staticwebassets/assets/images/scaffolding.png"
     },
