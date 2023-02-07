@@ -379,7 +379,7 @@ nav {
 }
 
 #developerTitle {
-    text-align: right;
+    text-align: left;
 }
 
 .uspContainer {
@@ -590,6 +590,76 @@ nav {
 
 /* Used on the 'for developers' page */
 
+.codeBlock {
+    box-shadow: 0 0 5px var(--boxShadow);
+}
+
+@media (max-width: 700px) {
+    .codeBlock {
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+}
+
+.codeHeader {
+    display: flex;
+    padding-left: 1em;
+    height: calc(40px + 1em);
+    align-items: flex-end;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: var(--borderColor);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.codeTab {
+    width: 40%;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: solid;
+    border-top-color: var(--borderColor);
+    border-left-color: var(--borderColor);
+    border-right-color: var(--borderColor);
+    border-bottom-color: #161b22;
+    border-width: 1px;
+    color: var(--offWhite);
+    font-size: 14px;
+    background-color: #161b22;
+}
+
+    .codeTab1::before {
+        content: '';
+        position: absolute;
+        left: -1.3em;
+        bottom: 0;
+        width: 1.3em;
+        border-bottom: 1px solid var(--borderColor);
+    }
+
+.codeTab2 {
+    background-color: var(--offBlack);
+    border-bottom-color: var(--borderColor);
+}
+
+    .codeTab2::before {
+        content: '';
+        position: absolute;
+        right: calc((-100% / 0.4) + 200% + 0.2em);
+        bottom: 0;
+        width: calc((100% / 0.4) - 200% - 0.2em);
+        border-bottom: 1px solid var(--borderColor);
+    }
+
 #philosophyTitle {
     margin-top: 250px;
 }
@@ -616,8 +686,7 @@ nav {
 }
 
 .whyCloudyDivTxt {
-    width: 50%;
-    min-width: 500px;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -633,12 +702,6 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-}
-
-.forDevsImg img {
-    max-width: 80%;
-    max-height: 80%;
-    margin: 0 auto;
 }
 
 .philosophyHeadingP {
@@ -662,7 +725,7 @@ nav {
         direction: rtl;
     }
 
-@media (max-width: 1116px) {
+@media (max-width: 1000px) {
     .whyCloudyDiv {
         justify-content: center;
         flex-direction: column;
@@ -671,7 +734,6 @@ nav {
 
     .whyCloudyDivTxt {
         width: 100%;
-        min-width: 0;
         row-gap: 20px;
         height: fit-content;
         min-height: 350px;

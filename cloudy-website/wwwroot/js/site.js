@@ -57,3 +57,7 @@ function showAlert() {
     alert("Coming very, very soon. Give us a shout at hello@cloudy.net or +46 76 06 66 920 if you would like to purchase now.");
 };
 
+
+
+
+

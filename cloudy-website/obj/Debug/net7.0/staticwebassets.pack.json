@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/assets/images/POCOs.png"
     },
     {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/c-sharp.png",
+      "PackagePath": "staticwebassets/assets/images/c-sharp.png"
+    },
+    {
       "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/logonb.png",
       "PackagePath": "staticwebassets/assets/images/logonb.png"
     },
@@ -29,12 +33,12 @@
       "PackagePath": "staticwebassets/assets/images/logowb.jpeg"
     },
     {
-      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/netmvc.png",
-      "PackagePath": "staticwebassets/assets/images/netmvc.png"
-    },
-    {
       "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/scaffolding.png",
       "PackagePath": "staticwebassets/assets/images/scaffolding.png"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
     },
     {
       "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/css/site.css",
@@ -43,6 +47,10 @@
     {
       "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/js/prism.js",
+      "PackagePath": "staticwebassets/js/prism.js"
     },
     {
       "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/js/site.js",

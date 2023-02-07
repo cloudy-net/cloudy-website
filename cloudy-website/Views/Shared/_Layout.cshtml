@@ -26,6 +26,8 @@
     <meta property="og:description" content="How Cloudy significantly reduces time to market, maintenance and makes your developers happier." />
     <script src="https://kit.fontawesome.com/cb6356502a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- prism -->
+    <link rel="stylesheet" href="~/css/prism.css" asp-append-version="true" />
 </head>
 <body>
 
@@ -62,7 +64,7 @@
                     <a class="navItem hover-underline-animation" href="/about/contact">Contact</a>
                 </div>
             </li>
-            <li class="hover-underline-animation"><a id="test" target="_blank" href="https://github.com/cloudy-cms/Cloudy.CMS" title="Github"><i class="fa-brands fa-github fa-lg"></i></a></li>
+            <li class="hover-underline-animation"><a target="_blank" href="https://github.com/cloudy-cms/Cloudy.CMS" title="Github"><i class="fa-brands fa-github fa-lg"></i></a></li>
             <li class="hover-underline-animation"><a target="_blank" href="https://twitter.com/cloudydotnet" title="Twitter"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
             <li class="hover-underline-animation"><a target="_blank" href="https://www.youtube.com/channel/UC8BRpzvX5J9n8-2G1KIf5xg" title="Youtube"><i class="fa-brands fa-youtube fa-lg"></i></a></li>
         </ul>
@@ -144,6 +146,8 @@
     </footer>
 
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- prism -->
+    <script src="~/js/prism.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

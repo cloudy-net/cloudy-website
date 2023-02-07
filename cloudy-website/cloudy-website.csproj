@@ -12,6 +12,7 @@
   <ItemGroup>
     <Content Remove="wwwroot\assets\" />
     <Content Remove="Views\Home\Privacy.cshtml" />
+    <Content Remove="wwwroot\css\prism.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\assets\" />

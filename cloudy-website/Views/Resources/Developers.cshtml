@@ -4,8 +4,8 @@
 
 <div class="heroContainer">
     <div class="heroComponent-left">
-        <h1>The CMS you've been longing for</h1><br>
-        <p>First things first: the developer. We originally set out on a journey to build a CMS with great developer experience. We think this is it.</p><br>
+        <h1>Build on EF Core, write less code</h1><br>
+        <p>Save time and energy with a few simple lines. Cloudy populates the CMS with entities based on your models in EF Core.</p><br>
         <button class="whyCloudyDivTxtEl reachBtn button" onclick="window.open('https://github.com/cloudy-cms/Cloudy.CMS');" value="Go to GitHub">See code on GitHub</button><br>
     </div>
     <div class="heroComponent-right">
@@ -22,7 +22,31 @@
             <button class="whyCloudyDivTxtEl reachBtn button">Reach out</button>
         </div>
         <div class="whyCloudyDivGif forDevsImg">
-            <img src="~/assets/images/POCOs.png" alt="Plain Old C# Objects" />
+            <div class="codeBlock">
+                <div class="codeHeader">
+                    <div class="codeTab codeTab1">
+                        <img src="~/assets/images/c-sharp.png" alt="C# icon" width="18" height="18" /><a>model.cs</a>
+                    </div>
+                    <div class="codeTab codeTab2">
+                        <img src="~/assets/images/c-sharp.png" alt="C# icon" width="18" height="18" /><a>program.cs</a>
+                    </div>
+                </div>
+                <div class="codeContentTab1">
+                    <pre class="line-numbers">
+<code class="language-csharp">[Display(Description = "This is a sample class.")]
+public class Page : INameable, IRoutable
+{
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public Guid Id { get; set; }
+    public string Name { get; set; }
+    public string UrlSegment { get; set; }
+    [UIHint("textarea")]
+    public string Description { get; set; }
+    [Select(typeof(Page))]
+    public string RelatedPageId { get; set; }
+}</code></pre>
+                </div>
+            </div>
         </div>
     </div>
     <div class="whyCloudyDiv right">

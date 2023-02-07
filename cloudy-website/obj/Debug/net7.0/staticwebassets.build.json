@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gq7x4+EcX0ojIlNZkPnLq9SjqXlv2iOkqdeXZXuP1Hg=",
+  "Hash": "YEAMim33urP+guvBtaxcfFvN/IybA5uMFQWU4lWPgws=",
   "Source": "cloudy-website",
   "BasePath": "_content/cloudy-website",
   "Mode": "Default",
@@ -153,6 +153,23 @@
       "OriginalItemSpec": "wwwroot/assets/images/.DS_Store"
     },
     {
+      "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/c-sharp.png",
+      "SourceId": "cloudy-website",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/",
+      "BasePath": "_content/cloudy-website",
+      "RelativePath": "assets/images/c-sharp.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/images/c-sharp.png"
+    },
+    {
       "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/logonb.png",
       "SourceId": "cloudy-website",
       "SourceType": "Discovered",
@@ -185,23 +202,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/images/logowb.jpeg"
-    },
-    {
-      "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/netmvc.png",
-      "SourceId": "cloudy-website",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/",
-      "BasePath": "_content/cloudy-website",
-      "RelativePath": "assets/images/netmvc.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/images/netmvc.png"
     },
     {
       "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/POCOs.png",
@@ -238,6 +238,23 @@
       "OriginalItemSpec": "wwwroot/assets/images/scaffolding.png"
     },
     {
+      "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/css/.DS_Store",
+      "SourceId": "cloudy-website",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/",
+      "BasePath": "_content/cloudy-website",
+      "RelativePath": "css/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/.DS_Store"
+    },
+    {
       "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/css/site.css",
       "SourceId": "cloudy-website",
       "SourceType": "Discovered",
@@ -270,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/js/prism.js",
+      "SourceId": "cloudy-website",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/",
+      "BasePath": "_content/cloudy-website",
+      "RelativePath": "js/prism.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/prism.js"
     },
     {
       "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/js/site.js",
