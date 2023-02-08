@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gq7x4+EcX0ojIlNZkPnLq9SjqXlv2iOkqdeXZXuP1Hg=",
+  "Hash": "TEguFrBZrFRZIcULzFepMXdN49NbtN3xqV3ZoEAooEw=",
   "Source": "cloudy-website",
   "BasePath": "_content/cloudy-website",
   "Mode": "Default",
@@ -187,23 +187,6 @@
       "OriginalItemSpec": "wwwroot/assets/images/logowb.jpeg"
     },
     {
-      "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/netmvc.png",
-      "SourceId": "cloudy-website",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/",
-      "BasePath": "_content/cloudy-website",
-      "RelativePath": "assets/images/netmvc.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/images/netmvc.png"
-    },
-    {
       "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/POCOs.png",
       "SourceId": "cloudy-website",
       "SourceType": "Discovered",
@@ -236,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/images/scaffolding.png"
+    },
+    {
+      "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/css/.DS_Store",
+      "SourceId": "cloudy-website",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/",
+      "BasePath": "_content/cloudy-website",
+      "RelativePath": "css/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/.DS_Store"
     },
     {
       "Identity": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/css/site.css",

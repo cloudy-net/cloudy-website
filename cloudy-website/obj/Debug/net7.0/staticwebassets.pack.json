@@ -29,12 +29,12 @@
       "PackagePath": "staticwebassets/assets/images/logowb.jpeg"
     },
     {
-      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/netmvc.png",
-      "PackagePath": "staticwebassets/assets/images/netmvc.png"
-    },
-    {
       "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/assets/images/scaffolding.png",
       "PackagePath": "staticwebassets/assets/images/scaffolding.png"
+    },
+    {
+      "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
     },
     {
       "Id": "/Users/Bas/Documents/cloudy-website/cloudy-website/wwwroot/css/site.css",
