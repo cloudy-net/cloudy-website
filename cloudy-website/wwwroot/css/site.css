@@ -441,8 +441,8 @@ nav {
 }
 
 .featureDiv {
-    flex-grow: 1;
-    width: 200px;
+    flex: 1 0 21%;
+    min-width: 200px;
 }
 
     .featureDiv > h3, .featureDiv > p, .featureDiv > i, .featureDiv > a {
