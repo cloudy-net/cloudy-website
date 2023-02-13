@@ -532,6 +532,14 @@ nav {
     margin: 15px;
 }
 
+#freeVAT {
+    color: var(--offBlack);
+}
+
+.VAT {
+    font-size: 12px;
+}
+
 .pricingSubTxt {
     min-height: 100px;
 }
