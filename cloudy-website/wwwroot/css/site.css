@@ -350,11 +350,6 @@ nav {
         margin-top: 35px;
     }
 }
-@media (min-width: 1335px) {
-    .heroContainer {
-        margin: 0 auto;
-    }
-}
 @media (max-width: 500px) {
     .heroContainer {
         margin-top: 125px;
@@ -374,16 +369,9 @@ nav {
 
 /* USP container section */
 
-#businessTitle {
-    text-align: left;
-}
-
-#developerTitle {
-    text-align: right;
-}
-
 .uspContainer {
     width: 90%;
+    max-width: 1200px;
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
@@ -440,6 +428,7 @@ nav {
 
 .featureContainer {
     width: 90%;
+    max-width: 1200px;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 250px;
@@ -522,6 +511,7 @@ nav {
     justify-content: center;
     gap: 25px;
     width: 90%;
+    max-width: 1200px;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 250px;
@@ -574,6 +564,7 @@ nav {
 
 .finalCallContainer {
     width: 90%;
+    margin-top: 250px;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 250px;
@@ -698,6 +689,7 @@ nav {
 /* Footer */
 
 footer {
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -787,5 +779,14 @@ footer {
     }
 }
 
+/* center content when it is limited to max width on larger screens */
+@media (min-width: 1335px) {
+    .heroContainer, .uspContainer, .featureContainer, .pricingContainer, footer {
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 250px;
+    }
+}
 
 
