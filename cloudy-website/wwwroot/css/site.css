@@ -548,11 +548,10 @@ nav {
     min-height: 125px;
 }
 
-#trialBtn {
-    min-width: 50%;
-    background-color: transparent;
-    border: solid 1px var(--green);
-    color: var(--offWhite)
+.refundTxt {
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 15px;
 }
 
 .pricingFooter {
