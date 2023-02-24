@@ -57,7 +57,7 @@ jobs:
           package: .
   message:
     needs: [build, deploy]
-    if: ( github.event_name == 'push' || github.event.inputs.notify-slack == 'true') && always() && !cancelled()
+    if: always() && !cancelled()
     uses: cloudy-net/Cloudy.CMS/.github/workflows/post-slack-workflow.yml@master
     with:
       group-ping-id: 'S04MMQ5VABX|devs'
