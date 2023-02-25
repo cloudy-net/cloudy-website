@@ -54,6 +54,6 @@ document.addEventListener("scroll", () => {
 // Display alert for buy buttons
 
 function showAlert() {
-    alert("Coming very, very soon. Give us a shout at hello@cloudy.net or +46 76 06 66 920 if you would like to purchase now.");
+    alert("Just want to try out Cloudy or building a non-commercial project? Feel free to download the NuGet packages and get going. Need support or want to talk? Reach out to hello@cloudy.net or +46 76 06 66 920");
 };
 
