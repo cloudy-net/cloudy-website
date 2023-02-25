@@ -40,19 +40,23 @@
           "dependencies": {
             "Cloudy.CMS": {
               "target": "Package",
-              "version": "[1.63.4, )"
+              "version": "[1.62.68, )"
             },
             "Cloudy.CMS.UI": {
               "target": "Package",
-              "version": "[1.63.4, )"
+              "version": "[1.62.68, )"
             },
             "Cloudy.CMS.UI.AzureMediaPicker": {
               "target": "Package",
-              "version": "[1.63.3, )"
+              "version": "[1.62.68, )"
             },
             "Microsoft.EntityFrameworkCore.Cosmos": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.2, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.5.0, )"
             }
           },
           "imports": [

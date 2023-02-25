@@ -34,9 +34,10 @@
     <None Remove="Stripe.net" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Cloudy.CMS" Version="1.63.4" />
-    <PackageReference Include="Cloudy.CMS.UI" Version="1.63.4" />
-    <PackageReference Include="Cloudy.CMS.UI.AzureMediaPicker" Version="1.63.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="7.0.3" />
+    <PackageReference Include="Cloudy.CMS" Version="1.62.68" />
+    <PackageReference Include="Cloudy.CMS.UI" Version="1.62.68" />
+    <PackageReference Include="Cloudy.CMS.UI.AzureMediaPicker" Version="1.62.68" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="7.0.2" />
+    <PackageReference Include="Stripe.net" Version="41.5.0" />
   </ItemGroup>
 </Project>
