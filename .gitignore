@@ -476,3 +476,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 cloudy-website/appsettings.Development.json
+bin
+obj
