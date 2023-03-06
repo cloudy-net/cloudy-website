@@ -1,5 +1,5 @@
-﻿using System;
-using Cloudy.CMS.ContentSupport;
+﻿using Cloudy.CMS.EntitySupport;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
