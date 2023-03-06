@@ -1,13 +1,14 @@
-﻿using Cloudy.CMS.Routing;
-using cloudy_website.Models;
+﻿using cloudy_website.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.Identity.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddMicrosoftIdentityWebAppAuthentication(builder.Configuration);
 builder.Services.AddCloudy(cloudy => cloudy
-.AddAdmin(admin => admin.Unprotect())   // NOTE: Admin UI will be publicly available!
-  .AddContext<SiteContext>()                // Adds EF Core context with your content types
+    .AddAdmin()
+    .AddContext<SiteContext>()
 );
 
 builder.Services.AddDbContext<SiteContext>(options => options
@@ -15,6 +16,8 @@ builder.Services.AddDbContext<SiteContext>(options => options
     builder.Configuration.GetConnectionString("CosmosConnectionString") ?? throw new Exception("CosmosConnectionString needed"),
     builder.Configuration["CosmosDatabase"] ?? throw new Exception("CosmosDatabase needed"))
 );
+
+builder.Services.Configure<AuthorizationOptions>(o => o.AddPolicy("adminarea", builder => builder.RequireAuthenticatedUser()));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -36,33 +39,25 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapRazorPages();
-    endpoints.MapControllers();
+app.MapRazorPages();
+app.MapControllers();
 
-    endpoints.MapControllerRoute(
+app.MapControllerRoute(null, "/p/{route:contentroute}", new { controller = "Page", action = "Index" });
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}");
 
-    endpoints.MapControllerRoute(
-        name: "Product",
-        pattern: "{controller=Product}/{action=Pricing}");
+app.MapControllerRoute(
+    name: "Product",
+    pattern: "{controller=Product}/{action=Pricing}");
 
-    endpoints.MapControllerRoute(
-        name: "Resources",
-        pattern: "{controller=Resources}/{action=business}");
+app.MapControllerRoute(
+    name: "Resources",
+    pattern: "{controller=Resources}/{action=business}");
 
-    endpoints.MapControllerRoute(
-        name: "About",
-        pattern: "{controller=About}/{action=About}");
-
-    endpoints.MapGet("/pages/{route:contentroute}", async c =>
-        await c.Response.WriteAsync($"Hello {c.GetContentFromContentRoute<Page>().Name}")
-    );
-
-    endpoints.MapControllerRoute(null, "/controllertest/{route:contentroute}", new { controller = "Page", action = "Index" });
-});
+app.MapControllerRoute(
+    name: "About",
+    pattern: "{controller=About}/{action=About}");
 
 app.Run();
-

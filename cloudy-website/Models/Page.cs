@@ -1,4 +1,5 @@
 ﻿using Cloudy.CMS.EntitySupport;
+using cloudy_website.Models.Blocks;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -18,5 +19,10 @@ namespace cloudy_website.Models
 
         [UIHint("html")]
         public string MainBody { get; set; }
+
+
+        public ITeaserBlock Teaser1 { get; set; }
+        public ITeaserBlock Teaser2 { get; set; }
+        public ITeaserBlock Teaser3 { get; set; }
     }
 }

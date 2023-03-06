@@ -1,0 +1,10 @@
+﻿@model cloudy_website.Models.Blocks.TeaserBlock
+
+@if (Model is not null)
+{
+    <div class="uspDiv block">
+        <h3>@Model.Heading</h3>
+        @Html.Raw(Model.Preamble)
+        <i class="fa-solid fa-rocket fa-2x"></i><a class="uspLink hover-underline-animation" href="@Model.Link">@Model.LinkText</a>
+    </div>
+}

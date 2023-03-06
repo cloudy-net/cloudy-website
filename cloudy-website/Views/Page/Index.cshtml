@@ -16,7 +16,13 @@
 </head>
 <body>
     <h1>@Model.Name</h1>
-    @Model.MainBody
+    @Html.Raw(Model.MainBody)
+
+    <div class="uspContainer">
+        @await Html.PartialAsync("TeaserBlock", Model.Teaser1)
+        @await Html.PartialAsync("TeaserBlock", Model.Teaser2)
+        @await Html.PartialAsync("TeaserBlock", Model.Teaser3)
+    </div>
 </body>
 </html>
 
