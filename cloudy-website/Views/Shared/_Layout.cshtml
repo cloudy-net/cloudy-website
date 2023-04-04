@@ -21,76 +21,62 @@
     <title>Build a back office in &lt;6 min - @ViewData["Title"]</title>
     <meta name="description" content="Use Cloudy to launch solutions for your clients, faster." />
     <meta property="og:title" content="Use Cloudy to launch solutions for your clients, faster" />
-    <meta property="og:url" content="https://wwwcloudynet.azurewebsites.net/home" />
+    <meta property="og:url" content="https://www.cloudy.net" />
     <meta property="og:image" content="https://res.cloudinary.com/ficka/image/upload/v1674680499/cloudy-website/socialslogo_poafcy.png" />
     <meta property="og:description" content="How Cloudy significantly reduces time to market, maintenance and makes your developers happier." />
     <script src="https://kit.fontawesome.com/cb6356502a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
 
     <nav>
-        <a class="menuSmall" href="/home"><img src="~/assets/images/logonb.png" alt="Cloudy logo" width="40" height="24.196" /></a>
         <ul class="hideOnSmall">
-            <li class="hover-underline-animation">
-                <a href="/home"><img src="~/assets/images/logonb.png" alt="Cloudy logo" width="30" height="18.147" /></a>
+            <li class="hover-underline-animation homeNavItem">
+                <a href="/home"><img src="~/assets/images/cloudy_bd_fb.png" alt="Cloudy logo" width="30" height="18.147" /></a>
                 <a id="logoTxt" class="logo" href="/home">Cloudy</a>
             </li>
-            <li class="navHover">
-                <a id="navProduct" class="navItem" href="">Product</a>
-                <div id="dropdownProduct" class="dropdownContent block">
-                    <a class="navItem hover-underline-animation" href="/product/pricing">Pricing</a>
-                    <a class="navItem comingSoon"><span>Philosophy</span></a>
-                    <a class="navItem comingSoon"><span>Portfolio</span></a>
-                    <a class="navItem hover-underline-animation" href="/product/features">Features</a>
-                </div>
-            </li>
-            <li class="navHover">
-                <a class="navItem" href="">Resources</a>
-                <div id="dropdownResources" class="dropdownContent block">
-                    <a class="navItem hover-underline-animation" href="/resources/agencies">For agencies</a>
-                    <a class="navItem hover-underline-animation" href="/resources/developers">For developers</a>
-                    <a class="navItem hover-underline-animation" target="_blank" href="https://billing.stripe.com/p/login/eVafZtdmU3BjecgeUU">Manage subscription</a>
-                    <a class="navItem comingSoon"><span>Add ons</span></a>
-                    <a class="navItem hover-underline-animation" href="/resources/docs">Docs</a>
-                </div>
-            </li>
-            <li class="navHover">
-                <a class="navItem" href="">About</a>
-                <div id="dropdownAbout" class="dropdownContent block">
-                    <a class="navItem comingSoon"><span>About</span></a>
-                    <a class="navItem comingSoon"><span>Careers</span></a>
-                    <a class="navItem hover-underline-animation" href="/about/contact">Contact</a>
-                </div>
-            </li>
-            <li class="hover-underline-animation"><a id="test" target="_blank" href="https://github.com/cloudy-cms/Cloudy.CMS" title="Github"><i class="fa-brands fa-github fa-lg"></i></a></li>
+            <li><a class="navItem hover-underline-animation" href="/product/pricing">Pricing</a></li>
+            <li><a class="navItem hover-underline-animation" href="/resources/docs">Docs</a></li>
+            <li><a class="navItem hover-underline-animation" href="/about/support">Support</a></li>
+            <li class="hover-underline-animation"><a target="_blank" href="https://github.com/cloudy-cms/Cloudy.CMS" title="Github"><i class="fa-brands fa-github fa-lg"></i></a></li>
             <li class="hover-underline-animation"><a target="_blank" href="https://twitter.com/cloudydotnet" title="Twitter"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
             <li class="hover-underline-animation"><a target="_blank" href="https://www.youtube.com/channel/UC8BRpzvX5J9n8-2G1KIf5xg" title="Youtube"><i class="fa-brands fa-youtube fa-lg"></i></a></li>
         </ul>
-        <a id="hamburger" class="menuSmall" title="Hamburger"><i class="fa-solid fa-bars fa-2x"></i></a>
-        <div id="dropdownHamburger" class="dropdownContentHamburger block">
-            <div class="dropdownElements">
-                <i id="closeMenuSmall" class="fa-solid fa-xmark fa-2x"></i>
-                <div class="dropdownSection">
-                    <p class="dropdownHamburgerHeader">Product</p>
-                    <a class="hover-underline-animation" href="/product/pricing">Pricing</a>
-                    <a class="navItem comingSoon"><span>Philosophy</span></a>
-                    <a class="comingSoon"><span>Portfolio</span></a>
-                    <a class="hover-underline-animation" href="/product/features">Features</a>
+        <div class="menuSmallContainer">
+            <div class="menuSmallContent">
+                <a href="/home"><img src="~/assets/images/cloudy_bd_fb.png" alt="Cloudy logo" width="50" height="30.245" /></a>
+                <div class="menuSmallRight">
+                    <a class="hover-underline-animation GitHubStars" target="_blank" href="https://github.com/cloudy-cms/Cloudy.CMS" title="Github">
+                        <i class="fa-brands fa-github fa-lg"></i>
+                        <div class="GitHubStarsScore">100+</div>
+                    </a>
+                    <a id="hamburger" title="Hamburger">
+                        <div class="buttonContainer">
+                            <i class="fa-solid fa-bars fa-lg hamburger1"></i>
+                            <i class="fa-solid fa-burger fa-lg hamburger2"></i>
+                        </div>
+                    </a>
                 </div>
-                <div class="dropdownSection">
-                    <p class="dropdownHamburgerHeader">Resources</p>
-                    <a class="hover-underline-animation" href="/resources/agencies">For agencies</a>
-                    <a class="hover-underline-animation" href="/resources/developers">For developers</a>
-                    <a class="hover-underline-animation" target="_blank" href="https://billing.stripe.com/p/login/eVafZtdmU3BjecgeUU">Manage subscription</a>
-                    <a class="comingSoon"><span>Add ons</span></a>
-                    <a class="hover-underline-animation" href="/resources/docs">Docs</a>
+            </div>
+        </div>
+        <div class="mobileMenuContainer">
+            <div id="mobileMenu" class="mobileMenu">
+                <div class="mobileMenuHeader">
+                    <a href="/home"><img src="~/assets/images/cloudy_bd_fb.png" alt="Cloudy logo" width="50" height="30.245" /></a>
+                    <a id="closeMobileMenu"><div class="buttonContainer"><i class="fa-solid fa-xmark fa-lg"></i></div></a>
                 </div>
-                <div class="dropdownSection">
-                    <p class="dropdownHamburgerHeader">About</p>
-                    <a class="comingSoon"><span>About</span></a>
-                    <a class="comingSoon"><span>Careers</span></a>
-                    <a class="hover-underline-animation" href="/about/contact">Contact</a>
+                <div class="mobileMenuBody">
+                    <a class="mobileMenuItem hover-underline-animation" href="/product/pricing">Pricing</a>
+                    <a class="mobileMenuItem hover-underline-animation" href="/resources/docs">Docs</a>
+                    <a class="mobileMenuItem hover-underline-animation" href="/about/support">Support</a>
+                </div>
+                <div class="mobileMenuFooter">
+                    <a target="_blank" href="https://github.com/cloudy-cms/Cloudy.CMS" title="Github"><i class="fa-brands fa-github fa-lg"></i></a>
+                    <a target="_blank" href="https://twitter.com/cloudydotnet" title="Twitter"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC8BRpzvX5J9n8-2G1KIf5xg" title="Youtube"><i class="fa-brands fa-youtube fa-lg"></i></a>
                 </div>
             </div>
         </div>
@@ -101,47 +87,27 @@
     </main>
 
     <footer>
-        <div class="footer-column-left">
-            <img src="~/assets/images/logowb.jpeg" alt="Cloudy logo" width="150" height="150" />
-            <p>With Cloudy, you can build CRMs, ticketing systems, admin dashboards, controllers or any other custom back office in minutes. For .NET and EF Core</p>
-        </div>
-        <div class="footer-column-right">
-            <div class="footer-column-right-top">
-                <div class="footer-column-right-top-el">
-                    <h4>Product</h4>
-                    <ul class="footer-ul">
-                        <li><a class="footerEl" href="/product/pricing">Pricing</a></li>
-                        <li><a class="footerEl comingSoon"><span>Philosophy</span></a></li>
-                        <li><a class="footerEl comingSoon"><span>Portfolio</span></a></li>
-                        <li><a class="footerEl" href="/product/features">Features</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column-right-top-el">
-                    <h4>Resources</h4>
-                    <ul class="footer-ul">
-                        <li><a class="footerEl" href="/resources/agencies">For agencies</a></li>
-                        <li><a class="footerEl" href="/resources/developers">For developers</a></li>
-                        <li><a class="footerEl" target="_blank" href="https://billing.stripe.com/p/login/eVafZtdmU3BjecgeUU">Manage subscription</a></li>
-                        <li><a class="footerEl comingSoon"><span>Add ons</span></a></li>
-                        <li><a class="footerEl" href="/resources/docs">Docs</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column-right-top-el">
-                    <h4>About</h4>
-                    <ul class="footer-ul">
-                        <li><a class="footerEl comingSoon"><span>About</span></a></li>
-                        <li><a class="footerEl comingSoon"><span>Careers</span></a></li>
-                        <li><a class="footerEl" href="/about/contact">Contact</a></li>
-                    </ul>
-                </div>
+        <div class="footer-row-top">
+            <div class="footer-row-top-el">
+                <h3>Streamline your business with bespoke back office software</h3>
             </div>
-            <div class="footer-column-right-middle">
+            <div class="footer-row-top-el">
+                <button class="button footerBtn" onclick="location.href = '/product/pricing';"><span>Start building  </span></button>
+            </div>
+        </div>
+        <div class="footer-row-bottom">
+            <div class="footer-row-bottom-top">
+                <p><a href="/product/pricing">Pricing</a></p>
+                <p><a href="/resources/docs">Docs</a></p>
+                <p><a href="/about/support">Support</a></p>
+            </div>
+            <div class="footer-row-bottom-middle">
                 <a target="_blank" href="https://github.com/cloudy-cms/Cloudy.CMS" title="Github"><i class="fa-brands fa-github fa-2x"></i></a>
                 <a target="_blank" href="https://twitter.com/cloudydotnet" title="Twitter"><i class="fa-brands fa-twitter fa-2x"></i></a>
                 <a target="_blank" href="https://www.youtube.com/channel/UC8BRpzvX5J9n8-2G1KIf5xg" title="Youtube"><i class="fa-brands fa-youtube fa-2x"></i></a>
             </div>
-            <div class="footer-column-right-bottom">
-                <p class="footerEl legalFooterTxt">&#169 2023 Cloudy. All rights reserved. &nbsp;&nbsp;&nbsp;<a class="footerEl legalFooterTxt" target="_blank" href="https://www.termsfeed.com/live/963d6ddb-78f5-4a43-9835-502f6d0b0472">Privacy policy</a> &nbsp;&nbsp;&nbsp;<a class="footerEl legalFooterTxt" target="_blank" href="https://www.termsfeed.com/live/50da1d1b-bb3d-4f51-b8a7-3b4a26709741">Terms and conditions</a></p>
+            <div class="footer-row-bottom-bottom">
+                <p>&#169 2023 Cloudy. All rights reserved. &nbsp;<br id="footerBreak"/><a class="footerEl legalFooterTxt" target="_blank" href="https://www.termsfeed.com/live/963d6ddb-78f5-4a43-9835-502f6d0b0472">Privacy policy</a>&nbsp;&nbsp;&nbsp;<a class="footerEl legalFooterTxt" target="_blank" href="https://www.termsfeed.com/live/50da1d1b-bb3d-4f51-b8a7-3b4a26709741">Terms and conditions</a></p>
             </div>
         </div>
     </footer>

@@ -2,34 +2,26 @@
 // Elements
 
 const hamburger = document.getElementById("hamburger");
-const smallMenu = document.getElementsByClassName("menuSmall");
-const dropdownHamburger = document.getElementById("dropdownHamburger");
-const closeMenuSmall = document.getElementById("closeMenuSmall");
+const closeMobileMenu = document.getElementById("closeMobileMenu");
+const mobileMenuContainer = document.getElementsByClassName("mobileMenuContainer");
+const mobileMenu = document.getElementById("mobileMenu");
 const philosophyHomePage = document.getElementsByClassName("whyCloudyDiv");
 
 
 // Toggle mobile nav
 
-var x = getComputedStyle(dropdownHamburger);
+var x = getComputedStyle(mobileMenuContainer[0]);
 
 hamburger.addEventListener("click", () => {
     if (x.getPropertyValue("display") === "none") {
-        dropdownHamburger.style.display = "block";
-    } else {
-        dropdownHamburger.style.display = "none";
+        mobileMenuContainer[0].style.display = "block";
+        mobileMenu.classList.add("show");
     }
 });
 
-closeMenuSmall.addEventListener("click", () => {
-    dropdownHamburger.style.display = "none";
-});
-
-var y = getComputedStyle(smallMenu[1]);
-
-window.addEventListener("resize", () => {
-    if (y.getPropertyValue("visibility") === "hidden") {
-        dropdownHamburger.style.display = "none";
-    }
+closeMobileMenu.addEventListener("click", () => {
+    mobileMenuContainer[0].style.display = "none";
+    mobileMenu.classList.remove("show");
 });
 
 

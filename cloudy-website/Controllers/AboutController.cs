@@ -13,7 +13,7 @@ public class AboutController : Controller
         _logger = logger;
     }
 
-    public IActionResult Contact()
+    public IActionResult Support()
     {
         return View();
     }
