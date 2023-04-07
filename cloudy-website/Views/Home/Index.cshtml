@@ -12,8 +12,29 @@
     <div class="spacerDivSmall"></div>
     <h1>Build bespoke<br /><span id="cycler">back offices</span><br class="heroBreak" /> in &lt;6 min</h1>
     <div class="spacerDivSmall"></div>
-    <div class="heroImg">
-        <img src="~/assets/images/cloudy_ui.png" alt="Cloudy UI" width="300" height="187.11" />
+    <div class="heroCode">
+        <div class="heroCodeHeader">
+            <div class="heroCodeHeaderActions">
+                <i class="fa-solid fa-window-minimize"></i>
+                <i class="fa-sharp fa-regular fa-window-maximize"></i>
+                <i class="fa-sharp fa-solid fa-square-xmark"></i>
+            </div>
+            <div class="heroCodeHeaderTxt">
+                <p>Page.cs</p>
+            </div>
+        </div>
+        <pre>
+<code>[Display(Description = <span class="codeBlue">"Sample class."</span>)]
+public class <span class="codeBlueWb">Page : INameable, IRoutable</span>
+{
+    public <span class="codeBlueWb">Guid Id</span> { get; set; }
+    public <span class="codeBlueWb">string Name</span> { get; set; }
+    public <span class="codeBlueWb">string UrlSegment</span> { get; set; }
+    [<span class="codeBlue">UIHint</span>(<span class="codeBlue">"textarea"</span>)]
+    public <span class="codeBlueWb">string Description</span> { get; set; }
+    [<span class="codeBlue">Select</span>(typeof(<span class="codeBlue">Page</span>))]
+    public <span class="codeBlueWb">string RelatedPageId</span> { get; set; }
+}</code></pre>
     </div>
 </div>
 
@@ -126,7 +147,7 @@
             <p class="pricingEl">For hobby and non-commercial projects</p>
         </div>
         <div class="pricingBtns">
-            <button id="buyBtn" class="button" onclick="showAlert()"><span>Try it  </span></button>
+            <button class="buyBtn button" onclick="showAlert()"><span>Try it  </span></button>
         </div>
         <div class="pricingFooter">
             <img src="~/assets/images/logonb.png" alt="Cloudy logo" width="140" height="84.686" />
@@ -141,7 +162,7 @@
             <p class="pricingEl">For independent contractors</p>
         </div>
         <div class="pricingBtns">
-            <button id="buyBtn" class="button" onclick="window.open('https://buy.stripe.com/aEU7uoaA78l60VOeUZ')"><span>Buy  </span></button>
+            <button class="buyBtn button" onclick="window.open('https://buy.stripe.com/aEU7uoaA78l60VOeUZ')"><span>Buy  </span></button>
             <p class="refundTxt">
                 Not happy within 3 months?<br />
                 Tell us and get a full refund
@@ -160,7 +181,7 @@
             <p class="pricingEl">For digital agencies and business</p>
         </div>
         <div class="pricingBtns">
-            <button id="buyBtn" class="button" onclick="window.open('https://buy.stripe.com/9AQaGA0ZxcBm6g8003')"><span>Buy  </span></button>
+            <button class="buyBtn button" onclick="window.open('https://buy.stripe.com/9AQaGA0ZxcBm6g8003')"><span>Buy  </span></button>
             <p class="refundTxt">
                 Not happy within 3 months?<br />
                 Tell us and get a full refund
