@@ -449,7 +449,6 @@ nav {
         border-radius: 10px;
         line-height: 20px;
         opacity: 0.6;
-        box-shadow: 1px 1px 50px #e9e9f2;
     }
 
         .heroCodeHeader {
@@ -461,7 +460,7 @@ nav {
             .heroCodeHeaderActions {
                 display: flex;
                 flex-direction: row;
-                column-gap: 15px;
+                column-gap: 10px;
             }
 
             .heroCodeHeaderTxt {
