@@ -20,20 +20,24 @@
                 <i class="fa-sharp fa-solid fa-square-xmark"></i>
             </div>
             <div class="heroCodeHeaderTxt">
-                <p>Page.cs</p>
+                <p>Boat.cs</p>
             </div>
         </div>
         <pre>
-<code>[Display(Description = <span class="codeBlue">"Sample class."</span>)]
-public class <span class="codeBlueWb">Page : INameable, IRoutable</span>
+<code>[Display(Description = <span class="codeBlueWb">"Marine vessels."</span>)]
+public class <span class="codeBlueWb">Boat</span><span class="codeBlue"> : </span><span class="codeBlueWB">INameable</span>
 {
     public <span class="codeBlueWb">Guid Id</span> { get; set; }
     public <span class="codeBlueWb">string Name</span> { get; set; }
-    public <span class="codeBlueWb">string UrlSegment</span> { get; set; }
-    [<span class="codeBlue">UIHint</span>(<span class="codeBlue">"textarea"</span>)]
-    public <span class="codeBlueWb">string Description</span> { get; set; }
-    [<span class="codeBlue">Select</span>(typeof(<span class="codeBlue">Page</span>))]
-    public <span class="codeBlueWb">string RelatedPageId</span> { get; set; }
+    [Required]
+    public <span class="codeBlueWb">int Registration</span> { get; set; }
+    [Display(Description = <span class="codeBlueWb">"Length in meters"</span>)]
+    public <span class="codeBlueWb">double BoatLength</span> { get; set; }
+    [MediaPicker(<span class="codeBlueWb">"azure"</span>)]
+    public <span class="codeBlueWb">string Image</span> { get; set; }
+    [Required]
+    [Select<span class="codeBlueWb">&#60;<span>Person</span>&#62;</span>]
+    public <span class="codeBlueWb">string OwnerId</span> { get; set; }
 }</code></pre>
     </div>
 </div>
