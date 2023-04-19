@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
             }, 20000);
         }
         // check if dataText[i] exists
-        if (i < dataText[i].length) {
+        if (dataText[i]) {
             // text exists! start typewriter animation
             typeWriter(dataText[i], 0, function () {
                 // after callback (and whole text has been animated), start next text
