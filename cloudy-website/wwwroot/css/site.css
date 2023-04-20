@@ -453,6 +453,8 @@ nav {
         border-radius: 10px;
         line-height: 20px;
         opacity: 0.6;
+        position: relative;
+        right: 100px;
     }
 
         .heroCodeHeader {
@@ -507,20 +509,81 @@ nav {
     display: none;
 }
 
+#heroImgCard {
+    position: relative;
+    bottom: 300px;
+    right: 320px;
+    box-shadow: 0.2px 0.2px 70px #ebebff;
+    border: 1px solid var(--secondaryBackground);
+    border-radius: 10px;
+}
+
+#heroImgForm {
+    position: relative;
+    bottom: 550px;
+    left: 190px;
+    box-shadow: 0.2px 0.2px 70px #ebebff;
+    border: 1px solid var(--secondaryBackground);
+    border-radius: 10px;
+    margin-bottom: -450px;
+}
+
 .buyBtn {
     min-width: 50%;
     height: 50px;
 }
 
+.techIconTxt {
+    color: var(--boxContent);
+}
+
+.techIconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+    .techIcon {
+        margin: 25px;
+    }
+
+.heroBottomCTA {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.tryItBtn {
+    height: 50px;
+    width: 200px;
+    margin: 25px;
+}
+
+@media (max-width: 950px) {
+    .heroCode {
+        right: 0px;
+    }
+    #heroImgCard {
+        bottom: 295px;
+        right: 150px;
+    }
+    #heroImgForm {
+        bottom: 260px;
+        left: 0px;
+        margin-bottom: -200px;
+    }
+    .heroBottomCTA {
+        width: 90%;
+    }
+}
 @media (max-width: 750px) {
     .heroBreak {
         display: block;
     }
-
     h1 {
         font-size: 8vw;
     }
-
     h2 {
         font-size: 7vw;
     }
@@ -533,6 +596,18 @@ nav {
     }
     .heroCodeHeader {
         margin-bottom: 10px;
+    }
+    #heroImgCard {
+        height: auto;
+        width: 40vw;
+        bottom: 70px;
+        right: 0px;
+    }
+    #heroImgForm {
+        height: auto;
+        width: 80vw;
+        bottom: 60px;
+        margin-bottom: 0px;
     }
 }
 @media (max-width: 500px) {
@@ -550,6 +625,14 @@ nav {
     }
     h2 {
         font-size: 9vw;
+    }
+}
+@media (max-width: 390px) {
+    .techIcon {
+        margin-top: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 25px;
     }
 }
 
@@ -915,7 +998,7 @@ footer {
 
         .footerBtn {
             width: 250px;
-            height: 60px;
+            height: 50px;
             font-size: 20px;
         }
 
