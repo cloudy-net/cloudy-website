@@ -50,9 +50,9 @@ public class <span class="codeBlueWb">Book</span><span class="codeBlue"> : </spa
     <div>
         <p class="techIconTxt">Built with and for:</p>
         <div class="techIconContainer">
-            <img class="techIcon"  src="~/assets/images/netgrey.png" alt=".NET logo" width="70" height="28" />
-            <img class="techIcon"  src="~/assets/images/netcoregrey.png" alt=".NET core logo" width="50" height="50" />
-            <img class="techIcon"  src="~/assets/images/efcoregrey.png" alt="EF Core logo" width="90" height="68" />
+            <img class="techIcon" src="~/assets/images/netgrey.png" alt=".NET logo" width="70" height="28" />
+            <img class="techIcon" src="~/assets/images/netcoregrey.png" alt=".NET core logo" width="50" height="50" />
+            <img class="techIcon" src="~/assets/images/efcoregrey.png" alt="EF Core logo" width="90" height="68" />
         </div>
         <p class="heroBottomCTA">Cloudy allows you to build code first CRUD apps and back offices quickly. Add some config, write your models and let the system interpret the rest. Made with a great developer experience at heart.</p>
         <button class="tryItBtn button" onclick="location.href = '/product/pricing';"><span>Try it  </span></button>
@@ -92,6 +92,56 @@ public class <span class="codeBlueWb">Book</span><span class="codeBlue"> : </spa
         <h3>As ... a great many things</h3>
         <p>In just a few minutes, you can configure what's needed for your process and start using Cloudy in your production apps.</p>
         <i class="fa-solid fa-hand-holding-heart fa-2x" style="color: var(--primaryBtn);"></i>
+    </div>
+</div>
+
+<div id="pricingTitle" class="containerTitle">
+    <h2>Pricing</h2>
+</div>
+<div class="pricingContainer">
+    <div class="pricingDiv block">
+        <div class="tierTitle"><h3>Community</h3></div>
+        <p class="priceHero">Free</p>
+        <p id="freeVAT" class="pricingEl VAT">.</p>
+        <p class="pricingEl">Unlimited instances</p>
+        <div class="pricingSubTxt">
+            <p class="pricingEl">For non-commercial projects</p>
+        </div>
+        <div class="pricingBtns">
+            <button class="buyBtn button" onclick="showAlert()"><span>Try it  </span></button>
+        </div>
+    </div>
+    <div class="pricingDiv block">
+        <div class="tierTitle"><h3>Freelancer</h3></div>
+        <p class="priceHero">$25</p>
+        <p class="pricingEl VAT">excl. VAT</p>
+        <p class="pricingEl">Per month, per instance</p>
+        <div class="pricingSubTxt">
+            <p class="pricingEl">For independent contractors</p>
+        </div>
+        <div class="pricingBtns">
+            <button class="buyBtn button" onclick="window.open('https://buy.stripe.com/aEU7uoaA78l60VOeUZ')"><span>Buy  </span></button>
+            <p class="refundTxt">
+                Not happy within 3 months?<br />
+                Tell us and get a full refund
+            </p>
+        </div>
+    </div>
+    <div class="pricingDiv block">
+        <div class="tierTitle"><h3>Agency</h3></div>
+        <p class="priceHero">$100</p>
+        <p class="pricingEl VAT">excl. VAT</p>
+        <p class="pricingEl">Per month, per instance</p>
+        <div class="pricingSubTxt">
+            <p class="pricingEl">For digital agencies and business</p>
+        </div>
+        <div class="pricingBtns">
+            <button class="buyBtn button" onclick="window.open('https://buy.stripe.com/9AQaGA0ZxcBm6g8003')"><span>Buy  </span></button>
+            <p class="refundTxt">
+                Not happy within 3 months?<br />
+                Tell us and get a full refund
+            </p>
+        </div>
     </div>
 </div>
 
@@ -167,56 +217,6 @@ public class <span class="codeBlueWb">Book</span><span class="codeBlue"> : </spa
     <div class="nextFeature featureDiv block" onclick="window.location.href = 'mailto:hello@cloudy.net?subject=Featureeeeeeeeee';">
         <i class="fa-solid fa-plus fa-4x"></i>
         <h3>What should we work on next?</h3>
-    </div>
-</div>
-
-<div id="pricingTitle" class="containerTitle">
-    <h2>Pricing</h2>
-</div>
-<div class="pricingContainer">
-    <div class="pricingDiv block">
-        <div class="tierTitle"><h3>Community</h3></div>
-        <p class="priceHero">Free</p>
-        <p id="freeVAT" class="pricingEl VAT">.</p>
-        <p class="pricingEl">Unlimited instances</p>
-        <div class="pricingSubTxt">
-            <p class="pricingEl">For non-commercial projects</p>
-        </div>
-        <div class="pricingBtns">
-            <button class="buyBtn button" onclick="showAlert()"><span>Try it  </span></button>
-        </div>
-    </div>
-    <div class="pricingDiv block">
-        <div class="tierTitle"><h3>Freelancer</h3></div>
-        <p class="priceHero">$25</p>
-        <p class="pricingEl VAT">excl. VAT</p>
-        <p class="pricingEl">Per month, per instance</p>
-        <div class="pricingSubTxt">
-            <p class="pricingEl">For independent contractors</p>
-        </div>
-        <div class="pricingBtns">
-            <button class="buyBtn button" onclick="window.open('https://buy.stripe.com/aEU7uoaA78l60VOeUZ')"><span>Buy  </span></button>
-            <p class="refundTxt">
-                Not happy within 3 months?<br />
-                Tell us and get a full refund
-            </p>
-        </div>
-    </div>
-    <div class="pricingDiv block">
-        <div class="tierTitle"><h3>Agency</h3></div>
-        <p class="priceHero">$100</p>
-        <p class="pricingEl VAT">excl. VAT</p>
-        <p class="pricingEl">Per month, per instance</p>
-        <div class="pricingSubTxt">
-            <p class="pricingEl">For digital agencies and business</p>
-        </div>
-        <div class="pricingBtns">
-            <button class="buyBtn button" onclick="window.open('https://buy.stripe.com/9AQaGA0ZxcBm6g8003')"><span>Buy  </span></button>
-            <p class="refundTxt">
-                Not happy within 3 months?<br />
-                Tell us and get a full refund
-            </p>
-        </div>
     </div>
 </div>
 
