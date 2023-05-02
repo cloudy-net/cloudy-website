@@ -24,7 +24,7 @@
 
     Hero: 60px
     H1: 50px
-    H2: 40px
+    H2: 30px
     H3: 20px
     H4: 18px
     P, A primary: 14px
@@ -56,9 +56,8 @@ h1 {
 }
 
 h2 {
-    color: var(--primaryBrandColor);
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 p, h4 {
@@ -137,7 +136,6 @@ nav ul i, .block i, footer i {
     margin-bottom: 50px;
     margin-top: 150px;
     text-align: center;
-    font-size: 20px;
 }
 
 .block {
@@ -584,9 +582,6 @@ nav {
     h1 {
         font-size: 8vw;
     }
-    h2 {
-        font-size: 7vw;
-    }
 }
 @media (max-width: 700px) {
     .heroCode {
@@ -624,7 +619,7 @@ nav {
         font-size: 10vw;
     }
     h2 {
-        font-size: 9vw;
+        font-size: 25px;
     }
 }
 @media (max-width: 390px) {
@@ -637,9 +632,9 @@ nav {
 }
 
 
-/* USP container section */
+/* examples and references section */
 
-.uspContainer {
+.container {
     width: 90%;
     max-width: 1200px;
     margin-left: 5%;
@@ -651,8 +646,6 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-
 
 .notHomeMargin {
     margin-top: 100px;
@@ -670,28 +663,16 @@ nav {
     }
 
 .uspDiv {
-    min-height: 259px;
-    min-width: 325px;
-    width: 30%;
+    flex: 1 0 40%;
+    min-width: 250px;
 }
 
-    .uspDiv > h3, .uspDiv > p, .uspDiv > i {
-        margin: 15px;
+    .uspDiv > * {
+        margin-bottom: 10px;
     }
-
-.uspLink {
-    text-decoration: none;
-    color: var(--secondaryTxt);
-}
 
 @media (max-width: 1197px) {
-    #businessTitle {
-        text-align: center;
-    }
-    #developerTitle {
-        text-align: center;
-    }
-    .uspContainer {
+    .container {
         justify-content: center;
     }
 }
