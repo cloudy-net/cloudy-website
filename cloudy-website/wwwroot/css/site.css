@@ -42,10 +42,6 @@ body {
     flex-direction: column;
 }
 
-main {
-    margin: 0 auto;
-}
-
 h1, h2, h3 {
     color: var(--primaryTxt);
 }
@@ -786,7 +782,7 @@ nav {
 }
 
 .pricingEl {
-    margin: 15px;
+    margin-top: 15px;
 }
 
 #freeVAT {
@@ -798,7 +794,9 @@ nav {
 }
 
 .pricingSubTxt {
-    min-height: 100px;
+    min-height: 200px;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .pricingBtns {
