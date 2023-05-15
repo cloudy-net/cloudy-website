@@ -138,6 +138,19 @@ nav ul i, .block i, footer i {
     text-align: center;
 }
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 15px;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .block {
     border-radius: 10px;
     background-color: var(--primaryBackground);
@@ -634,19 +647,6 @@ nav {
 
 /* examples and references section */
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-    flex-direction: row;
-    row-gap: 15px;
-    column-gap: 15px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .notHomeMargin {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -662,12 +662,12 @@ nav {
         padding-left: 15px;
     }
 
-.uspDiv {
+.useCaseDiv {
     flex: 1 0 40%;
     min-width: 250px;
 }
 
-    .uspDiv > * {
+    .useCaseDiv > * {
         margin-bottom: 10px;
     }
 
@@ -678,46 +678,74 @@ nav {
 }
 
 
-/* Feature section */
+/* Pricing container */
 
-.featureContainer {
-    width: 90%;
-    max-width: 1200px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 250px;
+.uspContainer {
+    margin-top: 175px;
+}
+
+.uspSection {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    row-gap: 20px;
-    column-gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin-bottom: 175px;
 }
 
-.featureDiv {
-    flex: 1 0 21%;
-    min-width: 200px;
+.uspSectionLeft {
+    width: 90%;
+    text-align: center;
+    min-width: 290px;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
-    .featureDiv > h3, .featureDiv > p, .featureDiv > i, .featureDiv > a {
-        margin: 15px;
+.uspSectionRight {
+    width: 90%;
+    text-align: center;
+    min-width: 290px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+    .uspSectionLeft > a, .uspSectionRight > a {
+        color: var(--primaryBrandColor);
+        font-weight: 700;
+        cursor: pointer;
+        text-decoration: none;
     }
 
-.nextFeature {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    cursor: pointer;
+.uspSectionEl {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-
-    .nextFeature > h3 {
-        font-weight: normal;
-        color: var(--secondaryTxt);
-    }
 
 
 /* Pricing container */
+
+.betaIntroWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.betaIntro {
+    background-color: var(--secondaryBackground);
+    width: 60%;
+    border-radius: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+    .betaIntro > h2 {
+        margin-bottom: 30px;
+    }
+
+    .betaIntro > button {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
 
 #pricingTitle {
     display: flex;
@@ -824,6 +852,46 @@ nav {
         flex-direction: column;
     }
 }
+
+
+/* Feature section */
+
+.featureContainer {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 250px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featureDiv {
+    flex: 1 0 21%;
+    min-width: 200px;
+}
+
+    .featureDiv > h3, .featureDiv > p, .featureDiv > i, .featureDiv > a {
+        margin: 15px;
+    }
+
+.nextFeature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+    .nextFeature > h3 {
+        font-weight: normal;
+        color: var(--secondaryTxt);
+    }
+
 
 
 /* Final call container */

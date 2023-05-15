@@ -12,7 +12,7 @@
 </div>
 
 <div class="container notHomeMargin">
-    <div class="uspDiv block">
+    <div class="useCaseDiv block">
         <h3>Architecture</h3>
         <p>The core solution consists of two packages: <code>Cloudy.CMS</code> and <code>Cloudy.CMS.UI</code>.</p>
         <p>The package <code>Cloudy.CMS.UI</code> contains the actual graphical user interface (the "Admin"). There are really no usable API's in this package, except the initialization code that goes into your <code>Startup.cs</code> or equivalent.</p>
@@ -25,7 +25,7 @@
         </ul>
         <p>There is also a Azure Media Picker package, called <code>Cloudy.CMS.UI.AzureMediaPicker</code>.</p>
     </div>
-    <div class="uspDiv block">
+    <div class="useCaseDiv block">
         <h3>Augmenting your data model</h3>
         <p>When having created your EF data model, you don't really have to do anything special to make it show up in Cloudy. Make sure you got the Cloudy initialization setup correctly, and add your <code>DbContext</code> with its <code>DbSet</code>s.</p>
         <p>There are however a few ways of augmenting and customizing the scaffolded UI.</p>
@@ -43,7 +43,7 @@
         <pre>[UIHint("mypartial")]<br>public string Property { get; set; }</pre>
         <p>To be documented: [Display], [ListFilter], [ListColumn], [CloudyIgnore], [Select], [MediaPicker]</p>
     </div>
-    <div class="uspDiv block">
+    <div class="useCaseDiv block">
         <h3>To be documented</h3>
         <ul>
             <li>Routing. Incl Model Binding, Polymorphism</li>
