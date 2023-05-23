@@ -531,7 +531,7 @@ nav {
 
 #heroImgForm {
     position: relative;
-    top: 150px;
+    top: -200px;
     left: 200px;
     box-shadow: 0.2px 0.2px 70px #ebebff;
     border: 1px solid var(--secondaryBackground);
