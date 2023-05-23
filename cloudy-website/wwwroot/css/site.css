@@ -531,12 +531,12 @@ nav {
 
 #heroImgForm {
     position: relative;
-    bottom: 550px;
-    left: 190px;
+    top: 150px;
+    left: 200px;
     box-shadow: 0.2px 0.2px 70px #ebebff;
     border: 1px solid var(--secondaryBackground);
     border-radius: 10px;
-    margin-bottom: -450px;
+    margin-bottom: -100px;
 }
 
 .buyBtn {
