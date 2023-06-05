@@ -29,7 +29,7 @@ closeMobileMenu.addEventListener("click", () => {
 
 document.addEventListener('DOMContentLoaded', function (event) {
     // array with texts to type in typewriter
-    var dataText = ["back offices", "CRUD apps", "back offices"];
+    var dataText = ["back offices", "CRUD apps", "admin areas", "back offices"];
 
     // type one text in the typewriter
     // keeps calling itself until the text is finished
